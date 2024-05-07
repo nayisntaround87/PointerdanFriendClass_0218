@@ -20,6 +20,9 @@ int main ()
 
     mahasiswa &refMhs = mhs; // pointer reference refMhs
     refMhs.nim = 2; // member access operator
+    mhs.showNim();
 
-    
+    mahasiswa *pMhs = &mhs; // pointer difference pMhs
+
+
 }
