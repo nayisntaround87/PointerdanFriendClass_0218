@@ -23,6 +23,7 @@ int main ()
     mhs.showNim();
 
     mahasiswa *pMhs = &mhs; // pointer difference pMhs
+    pMhs->nim = 3; // arrow operator
 
 
 }
